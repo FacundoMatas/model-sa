@@ -1,0 +1,32 @@
+Resultados G:\DESARROLLO\PYTHON\Proyectos\Python para ciencia de datos\Otros\tweets\Etiquetado\FINAL\PRUEBA DICCIONARIO\NUEVO INTENTO\SENTICON\BINARIO\SentiCon_1 
+
+***** METRICAS DICCIONARIO: SentiCon *****
+
+Exactitud (accuracy) 60.68840579710145
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+   |   -     |
+   |   1   1 |
+---+---------+
+-1 |<246>108 |
+ 1 | 109 <89>|
+---+---------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+          -1      0.693     0.695     0.694       354
+           1      0.452     0.449     0.451       198
+
+   micro avg      0.607     0.607     0.607       552
+   macro avg      0.572     0.572     0.572       552
+weighted avg      0.606     0.607     0.607       552
+
+****************************************
+
+
+

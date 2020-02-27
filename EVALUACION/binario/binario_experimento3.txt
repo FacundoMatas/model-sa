@@ -1,0 +1,263 @@
+Resultados G:\DESARROLLO\PYTHON\Proyectos\Python para ciencia de datos\Otros\tweets\Etiquetado\FINAL\PRUEBA ALGORITMOS\binario\binario_experimento3 
+
+***** METRICAS CLASIFICADOR Regresion logistica *****
+
+Exactitud (accuracy) 79.24865831842575
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1 |
+--+---------+
+0 |<346> 27 |
+1 |  89 <97>|
+--+---------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.795     0.928     0.856       373
+           1      0.782     0.522     0.626       186
+
+   micro avg      0.792     0.792     0.792       559
+   macro avg      0.789     0.725     0.741       559
+weighted avg      0.791     0.792     0.780       559
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR SGD *****
+
+Exactitud (accuracy) 79.24865831842575
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1 |
+--+---------+
+0 |<328> 45 |
+1 |  71<115>|
+--+---------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.822     0.879     0.850       373
+           1      0.719     0.618     0.665       186
+
+   micro avg      0.792     0.792     0.792       559
+   macro avg      0.770     0.749     0.757       559
+weighted avg      0.788     0.792     0.788       559
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR Ridge *****
+
+Exactitud (accuracy) 76.20751341681574
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1 |
+--+---------+
+0 |<322> 51 |
+1 |  82<104>|
+--+---------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.797     0.863     0.829       373
+           1      0.671     0.559     0.610       186
+
+   micro avg      0.762     0.762     0.762       559
+   macro avg      0.734     0.711     0.719       559
+weighted avg      0.755     0.762     0.756       559
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR MNB *****
+
+Exactitud (accuracy) 75.49194991055455
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1 |
+--+---------+
+0 |<360> 13 |
+1 | 124 <62>|
+--+---------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.744     0.965     0.840       373
+           1      0.827     0.333     0.475       186
+
+   micro avg      0.755     0.755     0.755       559
+   macro avg      0.785     0.649     0.658       559
+weighted avg      0.771     0.755     0.719       559
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR Bernoulli NB *****
+
+Exactitud (accuracy) 66.90518783542039
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1 |
+--+---------+
+0 |<373>  . |
+1 | 185  <1>|
+--+---------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.668     1.000     0.801       373
+           1      1.000     0.005     0.011       186
+
+   micro avg      0.669     0.669     0.669       559
+   macro avg      0.834     0.503     0.406       559
+weighted avg      0.779     0.669     0.538       559
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR Complement NB *****
+
+Exactitud (accuracy) 77.4597495527728
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1 |
+--+---------+
+0 |<355> 18 |
+1 | 108 <78>|
+--+---------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.767     0.952     0.849       373
+           1      0.812     0.419     0.553       186
+
+   micro avg      0.775     0.775     0.775       559
+   macro avg      0.790     0.686     0.701       559
+weighted avg      0.782     0.775     0.751       559
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR SVC *****
+
+Exactitud (accuracy) 66.7262969588551
+Precision 1.0
+Recall 0.5
+F measure 0.6666666666666666
+
+Matriz de confusión 
+  |   0   1 |
+--+---------+
+0 |<373>  . |
+1 | 186  <.>|
+--+---------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.667     1.000     0.800       373
+           1      0.000     0.000     0.000       186
+
+   micro avg      0.667     0.667     0.667       559
+   macro avg      0.334     0.500     0.400       559
+weighted avg      0.445     0.667     0.534       559
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR Linear SVC *****
+
+Exactitud (accuracy) 76.74418604651163
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1 |
+--+---------+
+0 |<319> 54 |
+1 |  76<110>|
+--+---------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.808     0.855     0.831       373
+           1      0.671     0.591     0.629       186
+
+   micro avg      0.767     0.767     0.767       559
+   macro avg      0.739     0.723     0.730       559
+weighted avg      0.762     0.767     0.763       559
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR NuSVC *****
+
+Exactitud (accuracy) 76.56529516994634
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1 |
+--+---------+
+0 |<335> 38 |
+1 |  93 <93>|
+--+---------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.783     0.898     0.836       373
+           1      0.710     0.500     0.587       186
+
+   micro avg      0.766     0.766     0.766       559
+   macro avg      0.746     0.699     0.712       559
+weighted avg      0.758     0.766     0.753       559
+
+****************************************
+
+
+

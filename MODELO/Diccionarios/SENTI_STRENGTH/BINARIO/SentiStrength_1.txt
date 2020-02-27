@@ -1,0 +1,32 @@
+Resultados G:\DESARROLLO\PYTHON\Proyectos\Modelo Tesis\model-sa\MODELO\Diccionarios\SENTI_STRENGTH\BINARIO\SentiStrength_1 
+
+***** METRICAS DICCIONARIO: SentiStrength *****
+
+Exactitud (accuracy) 51.26811594202898
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+   |   -     |
+   |   1   1 |
+---+---------+
+-1 |<143>212 |
+ 1 |  57<140>|
+---+---------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+          -1      0.715     0.403     0.515       355
+           1      0.398     0.711     0.510       197
+
+   micro avg      0.513     0.513     0.513       552
+   macro avg      0.556     0.557     0.513       552
+weighted avg      0.602     0.513     0.513       552
+
+****************************************
+
+
+

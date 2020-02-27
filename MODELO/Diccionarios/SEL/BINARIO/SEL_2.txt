@@ -1,0 +1,32 @@
+Resultados G:\DESARROLLO\PYTHON\Proyectos\Python para ciencia de datos\Otros\tweets\Etiquetado\FINAL\PRUEBA DICCIONARIO\NUEVO INTENTO\SEL\BINARIO\SEL_2 
+
+***** METRICAS DICCIONARIO: SEL *****
+
+Exactitud (accuracy) 70.03610108303249
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+   |   -     |
+   |   1   1 |
+---+---------+
+-1 |<334> 44 |
+ 1 | 122 <54>|
+---+---------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+          -1      0.732     0.884     0.801       378
+           1      0.551     0.307     0.394       176
+
+   micro avg      0.700     0.700     0.700       554
+   macro avg      0.642     0.595     0.598       554
+weighted avg      0.675     0.700     0.672       554
+
+****************************************
+
+
+

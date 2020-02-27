@@ -1,0 +1,281 @@
+Resultados G:\DESARROLLO\PYTHON\Proyectos\Python para ciencia de datos\Otros\tweets\Etiquetado\FINAL\PRUEBA ALGORITMOS\ternario\experimento2 
+
+***** METRICAS CLASIFICADOR Regresion logistica *****
+
+Exactitud (accuracy) 60.21897810218978
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1   2 |
+--+-------------+
+0 |<293> 21  59 |
+1 |  63 <79> 44 |
+2 | 121  19<123>|
+--+-------------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.614     0.786     0.689       373
+           1      0.664     0.425     0.518       186
+           2      0.544     0.468     0.503       263
+
+   micro avg      0.602     0.602     0.602       822
+   macro avg      0.607     0.559     0.570       822
+weighted avg      0.603     0.602     0.591       822
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR SGD *****
+
+Exactitud (accuracy) 60.34063260340633
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1   2 |
+--+-------------+
+0 |<279> 35  59 |
+1 |  57 <99> 30 |
+2 | 109  36<118>|
+--+-------------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.627     0.748     0.682       373
+           1      0.582     0.532     0.556       186
+           2      0.570     0.449     0.502       263
+
+   micro avg      0.603     0.603     0.603       822
+   macro avg      0.593     0.576     0.580       822
+weighted avg      0.599     0.603     0.596       822
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR Ridge *****
+
+Exactitud (accuracy) 56.812652068126525
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1   2 |
+--+-------------+
+0 |<267> 34  72 |
+1 |  54 <80> 52 |
+2 | 110  33<120>|
+--+-------------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.619     0.716     0.664       373
+           1      0.544     0.430     0.480       186
+           2      0.492     0.456     0.473       263
+
+   micro avg      0.568     0.568     0.568       822
+   macro avg      0.552     0.534     0.539       822
+weighted avg      0.562     0.568     0.562       822
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR MNB *****
+
+Exactitud (accuracy) 57.785888077858885
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1   2 |
+--+-------------+
+0 |<333>  7  33 |
+1 | 117 <48> 21 |
+2 | 165   4 <94>|
+--+-------------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.541     0.893     0.674       373
+           1      0.814     0.258     0.392       186
+           2      0.635     0.357     0.457       263
+
+   micro avg      0.578     0.578     0.578       822
+   macro avg      0.663     0.503     0.508       822
+weighted avg      0.633     0.578     0.541       822
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR Bernoulli NB *****
+
+Exactitud (accuracy) 46.35036496350365
+Precision 1.0
+Recall 0.6666666666666666
+F measure 0.8
+
+Matriz de confusión 
+  |   0   1   2 |
+--+-------------+
+0 |<372>  .   1 |
+1 | 184  <.>  2 |
+2 | 254   .  <9>|
+--+-------------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.459     0.997     0.629       373
+           1      0.000     0.000     0.000       186
+           2      0.750     0.034     0.065       263
+
+   micro avg      0.464     0.464     0.464       822
+   macro avg      0.403     0.344     0.231       822
+weighted avg      0.448     0.464     0.306       822
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR Complement NB *****
+
+Exactitud (accuracy) 59.00243309002433
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1   2 |
+--+-------------+
+0 |<301> 16  56 |
+1 |  84 <75> 27 |
+2 | 137  17<109>|
+--+-------------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.577     0.807     0.673       373
+           1      0.694     0.403     0.510       186
+           2      0.568     0.414     0.479       263
+
+   micro avg      0.590     0.590     0.590       822
+   macro avg      0.613     0.542     0.554       822
+weighted avg      0.600     0.590     0.574       822
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR SVC *****
+
+Exactitud (accuracy) 45.37712895377129
+Precision 1.0
+Recall 0.3333333333333333
+F measure 0.5
+
+Matriz de confusión 
+  |   0   1   2 |
+--+-------------+
+0 |<373>  .   . |
+1 | 186  <.>  . |
+2 | 263   .  <.>|
+--+-------------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.454     1.000     0.624       373
+           1      0.000     0.000     0.000       186
+           2      0.000     0.000     0.000       263
+
+   micro avg      0.454     0.454     0.454       822
+   macro avg      0.151     0.333     0.208       822
+weighted avg      0.206     0.454     0.283       822
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR Linear SVC *****
+
+Exactitud (accuracy) 56.69099756690997
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1   2 |
+--+-------------+
+0 |<260> 37  76 |
+1 |  50 <82> 54 |
+2 | 103  36<124>|
+--+-------------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.630     0.697     0.662       373
+           1      0.529     0.441     0.481       186
+           2      0.488     0.471     0.480       263
+
+   micro avg      0.567     0.567     0.567       822
+   macro avg      0.549     0.536     0.541       822
+weighted avg      0.562     0.567     0.563       822
+
+****************************************
+
+
+
+***** METRICAS CLASIFICADOR NuSVC *****
+
+Exactitud (accuracy) 55.23114355231144
+Precision 1.0
+Recall 1.0
+F measure 1.0
+
+Matriz de confusión 
+  |   0   1   2 |
+--+-------------+
+0 |<237> 39  97 |
+1 |  40 <77> 69 |
+2 |  96  27<140>|
+--+-------------+
+(row = reference; col = test)
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0      0.635     0.635     0.635       373
+           1      0.538     0.414     0.468       186
+           2      0.458     0.532     0.492       263
+
+   micro avg      0.552     0.552     0.552       822
+   macro avg      0.544     0.527     0.532       822
+weighted avg      0.557     0.552     0.552       822
+
+****************************************
+
+
+
